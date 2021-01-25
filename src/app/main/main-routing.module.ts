@@ -12,6 +12,18 @@ const routes: Routes = [
         loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
       },
       {
+        path: 'questions',
+        loadChildren: () => import('./questions/questions.module').then(m => m.QuestionsModule)
+      },
+      {
+        path: 'inspection-places',
+        loadChildren: () => import('./inspection-places/inspection-places.module').then(m => m.InspectionPlacesModule)
+      },
+      {
+        path: 'inspection-item',
+        loadChildren: () => import('./inspection-item/inspection-item.module').then(m => m.InspectionItemModule)
+      },
+      {
         path: mainUrls[ 1 ],
         loadChildren: () => import('./log-symptoms/order-recycle.module').then(m => m.OrderRecycleModule)
       },
