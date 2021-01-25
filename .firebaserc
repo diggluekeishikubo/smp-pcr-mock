@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "pcr-mock": {
+      "hosting": {
+        "smp-plastic": [
+          "pcr-mock"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@import '~@angular/material/theming';
+@import "variables";
+
+@include mat-core();
+$main-theme: mat-light-theme((
+  color: (
+    primary: (
+      default: #57b5e5,
+      lighter: #bbdefb,
+      darker: #1976d2,
+      text: #90caf9,
+      default-contrast: rgba(255, 255, 255, 0.87),
+      lighter-contrast:
+      rgba(255, 255, 255, 0.87),
+      darker-contrast: white),
+    accent: $palette-accent,
+    warn: $palette-warn,
+  )
+));
+@include angular-material-theme($main-theme);
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

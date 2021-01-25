@@ -1,0 +1,24 @@
+@import '~@angular/material/theming';
+
+
+/*
+ Theme object is like (color: (primary, accent, warn))
+ config object is like ((primary, accent, warn))
+*/
+
+@debug "------------------";
+@debug "------------------";
+@debug "------------------";
+@debug "------------------";
+$palette-primary: mat-palette($mat-blue, 200);
+@debug $mat-blue;
+$palette-accent: mat-palette($mat-yellow, 500);
+$palette-warn: mat-palette($mat-red);
+
+$primary: #57b5e5;
+$primary-text: mat-contrast($mat-blue, 500);
+$accent: mat-color($palette-accent);
+$accent-text: mat-contrast($mat-blue, 500);
+$warn: mat-color($palette-warn);
+$warn-text: mat-contrast($mat-blue, 500);
+$config: mat-get-color-config($primary)

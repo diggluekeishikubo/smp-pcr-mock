@@ -1,0 +1,20 @@
+.main-header {
+  display: flex;
+  z-index: 2;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  padding: 1rem;
+  border-bottom: 1px darken(white, 10) solid;
+}
+
+.action-group {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
