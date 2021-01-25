@@ -15,7 +15,7 @@ import { Item, ItemsService } from '../../services/items.service';
       </div>
     </header>
     <h1 class="main-title">経験をシェアしましょう</h1>
-    <p>困ったことや役に立ったことなどをシェアしましょう。あなたの体験が誰かの役に立ちます。</p>
+    <p style="text-align: center">困ったことや役に立ったことなどをシェアしましょう。あなたの体験が誰かの役に立ちます。</p>
   `,
   styleUrls: [ './shops.component.scss' ]
 })
