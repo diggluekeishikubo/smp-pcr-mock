@@ -24,6 +24,8 @@ const multi = [
 @Component({
   selector: 'app-chart',
   template: `
+    <h2>あなたの体調の記録記録</h2>
+    <h3>体温</h3>
     <div style="width: 100%; height: 100%; padding: 2rem 0">
       <ngx-charts-line-chart
         [view]="view"
