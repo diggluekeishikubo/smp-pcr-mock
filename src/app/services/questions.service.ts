@@ -121,6 +121,38 @@ const questions: Question[] = [
       url: '/symptoms-result/negative', explanation: '', label: '陰性'
     }
   ]),
+  new ChoiceQuestion('9', 'PCR検査の必要か判定するための診断を開始します。', [
+    {
+      url: '/questions/10', explanation: '', label: '診断を開始する'
+    },
+    {
+      url: '/home', explanation: '', label: 'TOPへ戻る'
+    }
+  ]),
+  new ChoiceQuestion('10', '3日以内で37度以上の熱は出ましたか？', [
+    {
+      url: '/questions/11', explanation: '', label: 'はい'
+    },
+    {
+      url: '/check-result/no', explanation: '', label: 'いいえ'
+    }
+  ]),
+  new ChoiceQuestion('11', '熱は5日以上続いていますか？', [
+    {
+      url: '/questions/12', explanation: '', label: 'はい'
+    },
+    {
+      url: '/check-result/no', explanation: '', label: 'いいえ'
+    }
+  ]),
+  new ChoiceQuestion('12', '味覚や嗅覚に異常を感じますか？', [
+    {
+      url: '/check-result/need', explanation: '', label: 'はい'
+    },
+    {
+      url: '/check-result/no', explanation: '', label: 'いいえ'
+    }
+  ]),
 ];
 
 @Injectable({
