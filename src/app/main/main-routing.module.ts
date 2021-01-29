@@ -12,6 +12,10 @@ const routes: Routes = [
         loadChildren: () => import('./record-symptom/record-symptom.module').then(m => m.RecordSymptomModule)
       },
       {
+        path: 'want-pcr',
+        loadChildren: () => import('./want-to-pcr/want-to-pcr.module').then(m => m.WantToPcrModule)
+      },
+      {
         path: mainUrls[ 0 ],
         loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
       },
