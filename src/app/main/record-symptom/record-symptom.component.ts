@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-record-symptom',
   template: `
-    <h2>今日の症状をを記録教えてください。</h2>
+    <h2>今日の症状を教えてください。</h2>
     <div style="padding-left: 1rem">
       <mat-form-field class="from-control">
         <input placeholder="現在の体温" matInput type="number">
