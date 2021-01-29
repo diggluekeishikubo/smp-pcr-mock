@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
     <mat-card>
       <div class="selection">
         <h2 style="text-align: center; font-size: 1rem">近くの衛生検査所で受けたい方へ</h2>
-        <p>保健所は非常に混雑しています。症状が軽い場合は自宅で検査することも可能です。
-          また、保健所の検査では1万円程度の費用がかかります。緊急で無い場合は自宅検査キットの利用をお勧めします。</p>
+        <p>検査所は非常に混雑しています。症状が軽い場合は自宅で検査することも可能です。
+          また、検査所の検査では1万円程度の費用がかかります。緊急で無い場合は自宅検査キットの利用をお勧めします。</p>
         <div style="text-align: center">
           <a routerLink="/questions/2" mat-raised-button color="primary">検査所で検査する</a>
         </div>
