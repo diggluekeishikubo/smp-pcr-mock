@@ -26,6 +26,11 @@ export class MainFooterComponent implements OnInit {
       text: '検査'
     },
     {
+      url: '/' + mainUrls[ 4 ],
+      icon: 'show_chart',
+      text: '体温チャート'
+    },
+    {
       url: '/' + mainUrls[ 1 ],
       icon: 'create',
       text: '経過記録'

@@ -51,6 +51,10 @@ const routes: Routes = [
         path: mainUrls[ 3 ],
         loadChildren: () => import('./bulletin-board/shops.module').then(m => m.ShopsModule)
       },
+      {
+        path: mainUrls[ 4 ],
+        loadChildren: () => import('./chart/chart.module').then(m => m.ChartModule)
+      },
     ]
   }
 ];
