@@ -7,6 +7,7 @@ import { Router } from '@angular/router';
   template: `
     <div class="login-main-container">
       <div class="main-box">
+        <img width="65" src="assets/corporate.png">
         <h1 class="main-title">コロナPCR検査アドバイザー</h1>
         <p>
           PCRの検査に関わる疑問を解消します。

@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
     <h2 style="text-align: center">あなたの近くの検査所です</h2>
     <mat-card class="card" *ngFor="let place of places">
       <p class="place-title">{{place.title}}</p>
-      <p class="description">受付時間: 8:00 ~ 18:00 定休日: 月 水</p>
+      <p class="description">受付時間: 8:00 ~ 18:00</p>
+      <p class="description">定休日: 月 水</p>
       <p class="address">{{place.address}}</p>
       <p class="tel">{{place.tel}}</p>
       <a class="button" color="primary" mat-raised-button>予約画面へ</a>

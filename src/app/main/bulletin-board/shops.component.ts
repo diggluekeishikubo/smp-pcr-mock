@@ -18,7 +18,7 @@ import { Component, OnInit } from '@angular/core';
     <mat-card class="example-card" *ngFor="let c of comments">
       <mat-card-header>
         <div mat-card-avatar class="example-header-image"></div>
-        <mat-card-title>{{c.title}}</mat-card-title>
+        <mat-card-title style="font-size: 1rem">{{c.title}}</mat-card-title>
         <mat-card-subtitle>{{c.name}}</mat-card-subtitle>
       </mat-card-header>
       <mat-card-content>
@@ -42,12 +42,12 @@ export class ShopsComponent implements OnInit {
     },
     {
       title: '診断を受けてみるとよいです。',
-      name: 'Cさん20歳男性。',
+      name: 'Cさん20歳男性',
       comment: '「熱が出たので検査を受けました。はじめは検査をどうやって受ければ良いかわからないと思うので、とりあえず”検査を受けるべきか問診を受けてみる”ボタンを押せば診断してもらえます。」'
     },
     {
       title: '膝が5日間痛むのですが、PCR検査を受けた方がよいでしょうか？',
-      name: 'Cさん20歳男性。',
+      name: 'Cさん20歳男性',
       comment: '「膝の関節が痛むのですが、同じ症状の人いますか？検査するか迷ってます。」'
     },
     {
