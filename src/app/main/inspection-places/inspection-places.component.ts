@@ -10,7 +10,10 @@ import { Component, OnInit } from '@angular/core';
       <p class="description">定休日: 月 水</p>
       <p class="address">{{place.address}}</p>
       <p class="tel">{{place.tel}}</p>
-      <a class="button" color="primary" mat-raised-button>予約画面へ</a>
+      <div style="display: flex; align-items: center">
+        <a class="button" color="primary" mat-raised-button>予約画面へ</a>
+        <img width="160" style="margin-left: auto" src="assets/map.png">
+      </div>
     </mat-card>
   `,
   styleUrls: [ './inspection-places.component.scss' ]
