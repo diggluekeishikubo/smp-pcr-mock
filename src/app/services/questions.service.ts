@@ -113,6 +113,14 @@ const questions: Question[] = [
     }
   ]),
   new NumberQuestion('7', '年齢を教えてください', '/inspection-item', '次へ', '年齢を入力'),
+  new ChoiceQuestion('8', 'PCR検査の結果を教えてください', [
+    {
+      url: '/symptoms-result/positive', explanation: '', label: '陽性'
+    },
+    {
+      url: '/symptoms-result/negative', explanation: '', label: '陰性'
+    }
+  ]),
 ];
 
 @Injectable({
