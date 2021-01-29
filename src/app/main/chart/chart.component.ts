@@ -27,7 +27,7 @@ const multi = [
     <h2 style="text-align: center">あなたの体調の記録</h2>
     <h3 style="text-align: center">体温</h3>
     <div style="width: 100%; height: 100%; padding: 2rem 0; display: flex; justify-content: center">
-      <ngx-charts-line-chart style="margin-left: -3rem"
+      <ngx-charts-line-chart
         [view]="view"
         [scheme]="colorScheme"
         [showXAxisLabel]="showXAxisLabel"
