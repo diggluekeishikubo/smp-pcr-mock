@@ -8,6 +8,10 @@ const routes: Routes = [
     path: '', component: MainComponent, children: [
       {path: '', pathMatch: 'full', redirectTo: 'home'},
       {
+        path: 'record-symptoms',
+        loadChildren: () => import('./record-symptom/record-symptom.module').then(m => m.RecordSymptomModule)
+      },
+      {
         path: mainUrls[ 0 ],
         loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
       },
