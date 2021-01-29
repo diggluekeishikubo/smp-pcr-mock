@@ -25,7 +25,7 @@ import { Component, OnInit } from '@angular/core';
         <p>{{c.comment}}</p>
       </mat-card-content>
       <mat-card-actions>
-        <button mat-button>いいね</button>
+        <button mat-button>参考になった +1</button>
         <button mat-button>コメントをする</button>
       </mat-card-actions>
     </mat-card>

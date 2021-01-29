@@ -10,8 +10,8 @@ import { Component, OnInit } from '@angular/core';
       </mat-form-field>
       <mat-radio-group class="form-group" aria-label="Select an option">
         <p class="para">関節の痛み</p>
-        <mat-radio-button class="button" value="1">あり</mat-radio-button>
-        <mat-radio-button class="button" value="2">なし</mat-radio-button>
+        <mat-radio-button class="button" value="1">通常</mat-radio-button>
+        <mat-radio-button class="button" value="2">違和感がある</mat-radio-button>
       </mat-radio-group>
       <mat-radio-group class="form-group" aria-label="Select an option">
         <p class="para">味覚の異常</p>
